@@ -1,1 +1,1 @@
-bot: python bot.py
+ocrv2.2: python min.py
