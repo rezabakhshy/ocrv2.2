@@ -1,2 +1,7 @@
 typing
+gtts
+pytesseract
 pyrogram~=1.2.9
+TgCrypto
+pytesseract~=0.3.8
+Pillow~=8.3.1
