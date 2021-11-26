@@ -1,1 +1,1 @@
-bot: python min.py
+min: python min.py
