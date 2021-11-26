@@ -1,1 +1,1 @@
-min: python min.py
+worker: python min.py
