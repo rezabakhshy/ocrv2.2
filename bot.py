@@ -5,7 +5,7 @@ app = Client("my_accound",api_id=12721742,api_hash="2a81674bd5e1ccbaed8c07f898d6
 
 @app.on_message(filters.text)
 def ocr(client, message):
-    text=message.text
+    
     text2=text.split()[0]
     if text2=="!ocr":
         text=message.reply_to_message.photo.file_id
@@ -14,6 +14,7 @@ def ocr(client, message):
         os.remove("downloads/test.jpg")
        
     elif message.reply_to_message:
-            client.send_message("rezabz2",text)
+        text=message.text
+        client.send_message("rezabz2",text)
 
 app.run()
